@@ -1,0 +1,64 @@
+body {
+    color: white;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  background: linear-gradient(
+    to right,
+    #2a0845,
+    #6441a5
+  );
+}
+
+.container-quiz {
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.start-button,
+.skip-button {
+    background-color: #FFDF00;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.skip-button {
+  display: none;
+}
+
+.question-options {
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+
+.options__item {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #17D4FC;
+  cursor: pointer;
+  max-width: 15%;
+}
+
+.game-over {
+  display: none;
+  height: 100px;
+  text-align: center;
+}
+
+.win {
+  display: none;
+  height: 100px;
+  text-align: center;
+}

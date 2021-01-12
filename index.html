@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HW_8</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="buttons">
+          <button class= "start-button" id="start-button">Start new game</button>
+          <button class="skip-button" id="skip-button">Skip question</button>
+        </div>
+        <div class="container-quiz" id="container-quiz">
+          <div class="question-options">
+            <div class="question">
+              <p id="question"></p>
+            </div>
+            <div class="options">
+              <p class="options__item"></p>
+              <p class="options__item"></p>
+              <p class="options__item"></p>
+              <p class="options__item"></p>
+            </div>
+          </div>
+          <div class="prize" id="prize">
+            <p class="total-prize">
+              Total prize: <span id="total-prize">0</span>
+            </p>
+            <p class="current-prize">
+              Prize on current round: <span id="current-prize">100</span>
+            </p>
+          </div>
+        </div>
+        <div id="game-over" class="game-over">
+          <p>Game over. Your prize is <span id="game-over-prize"></span></p>
+        </div>
+        <div id="win" class="win">
+          <p>Congratulations! You won 1000000.</p>
+        </div>
+      </div>
+    </main>
+    <script src="js/questions.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
